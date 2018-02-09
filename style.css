@@ -9,3 +9,24 @@
 body {
     font-size: 16px;
 }
+
+.nav {
+    font-size: 16px;
+}
+
+.site-header {
+    background: #000000;
+}
+
+.site-bar {
+    background-color: #FFFFFF;
+}
+
+.site-logo h1 a {
+    color: #FFFFFF;
+    font-size: 1.5em;
+}
+.site-logo p.tagline {
+    color: #FFFFFF;
+    font-size: 1.25em;
+}
