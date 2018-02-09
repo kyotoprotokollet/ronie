@@ -30,3 +30,41 @@ body {
     color: #FFFFFF;
     font-size: 1.25em;
 }
+
+.site-bar .site-tools {
+    width: auto;
+}
+
+.site-bar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+@media (min-width: 480px) {
+    .site-bar  {
+        flex-direction: row;
+    }
+}
+
+.site-bar .nav {
+    width: auto;
+    float: none;
+    flex: 1;
+}
+
+.site-bar .nav ul {
+    display: flex;
+}
+
+
+#footer .nav ul {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 480px) {
+    #footer .nav ul {
+        flex-direction: row;
+    }
+}
